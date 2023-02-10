@@ -1,0 +1,11 @@
+https://github.com/HighTemplar-wjiang/NIRScanner-Python
+
+debian systems(pi)
+sudo apt-get install libudev-dev libusb-1.0-0-dev python-dev python3-dev
+
+Raspberry Pi with Python 2
+
+Use \_NIRScanner.so.2.pi
+
+NIRScanner-Python$ cp ./lib/\_NIRScanner.so.2.pi <your-project-path>/\_NIRScanner.so
+NIRScanner-Python$ cp ./lib/NIRS.py <your-project-path>
